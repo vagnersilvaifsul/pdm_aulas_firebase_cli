@@ -67,3 +67,6 @@ node_modules/
 
 #Mac OS
 .DS_Store
+
+#keys
+pdm-aulas-797c8-c2380437b21d.json
