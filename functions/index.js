@@ -31,7 +31,7 @@ const functions = require("firebase-functions");
 // Import Scheduller GCP
 // const {PubSub} = require("@google-cloud/pubsub");
 
-admin.initializeApp();
+admin.initializeApp({credential: admin.credential.cert(require("./pdm-aulas-797c8-c2380437b21d.json"))});
 
 /*
   Atenção: Esta função só funciona em Produção (por que o agendamento é feito pelo GCP).
